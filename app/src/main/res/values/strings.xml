@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MY_WATER</string>
+    <string name="menu_open">Drawer open</string>
+    <string name="menu_close">Drawer close</string>
+    <string name="total">Total price:</string>
+    <string name="price">700</string>
+</resources>
