@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MY_WATER">
         <activity
+            android:name=".AdvancedSignUp"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity
@@ -38,17 +41,13 @@
             android:exported="false" />
         <activity
             android:name=".Orders"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".DrawerBaseActivity"
             android:exported="false" />
         <activity
             android:name=".Dashboard"
-            android:exported="false">
-
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".ResetPassword"
             android:exported="false" />
@@ -63,13 +62,12 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 

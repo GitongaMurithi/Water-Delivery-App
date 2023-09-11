@@ -10,4 +10,7 @@
     <color name="green">#00CC00</color>
     <color name="red">	#FF0000</color>
     <color name="blue">	#0000FF</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="blizzardBlue">#ACE5EE</color>
+
 </resources>

@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                     Intent intent=new Intent(MainActivity.this,Register.class);
+                     Intent intent=new Intent(MainActivity.this,AdvancedSignUp.class);
                      startActivity(intent);
                      finish();
                 }
